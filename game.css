@@ -1,0 +1,44 @@
+#gameBoard {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cell {
+    flex-grow: 1;
+}
+
+.road {
+    background-color: lightblue;
+}
+
+.car {
+    background-color: black;
+}
+
+.river {
+    background-color: lightblue;
+}
+
+.log {
+    background-color: brown;
+}
+
+.finishLine {
+    background-color: blue;
+}
+
+.player {
+    background-color: green;
+}
+
+.player.dead {
+    background-color: red;
+}
